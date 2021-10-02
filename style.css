@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px; 
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Helvetica;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Helvetica;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background: grey;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content-area {
+    width: 100px;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height: 1500px;
+}
+
+.content-area h2 {
+    font-family: Helvetica;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area p {
+    padding: 2% 0;
+    font-family: cursive;
+    font-style: italic;
+    line-height: 30px;
+}
